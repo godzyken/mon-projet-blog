@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mon-projet-blog';
+  isAuth = false;
+
+  constructor() {
+    setTimeout(
+      () => {
+        this.isAuth = true;
+      }, 4000
+    );
+  }
+  onGetLike() {
+    console.log('oh U like it bitch!');
+  }
+  onGetUnlike() {
+    console.log('ahh U r uhgr soco-soco!!');
+  }
 }
