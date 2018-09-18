@@ -1,8 +1,13 @@
-<h1>{{title | titlecase}}</h1>
-<app-post-list *ngFor="let post of postList"
-                    [titleBean]="post.title"
-                    [contentBean]="post.content"
-                    [loveItsBean]="post.loveits"
-                    [createdAtBean]="post.created_at"
-></app-post-list>
-
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>{{title | titlecase}}</h1>
+      <app-post-list *ngFor="let post of postList"
+                          [titleBean]="post.title"
+                          [contentBean]="post.content"
+                          [loveItsBean]="post.loveits"
+                          [createdAtBean]="post.created_at"
+      ></app-post-list>
+    </div>
+  </div>
+</div>

@@ -18,7 +18,7 @@ export class AppComponent {
         'ou au tressage (exemple chez Martial ' +
         '« Vimineum textum = panier d\'osier tressé »). Le verbe a aussi le sens large de construire comme dans ' +
         '« basilicam texere = construire une basilique » chez Cicéron3. ',
-      loveits: 1,
+      loveits: 0,
       created_at: new Date()
     },
     {
@@ -28,7 +28,7 @@ export class AppComponent {
         '« epistolas texere = composer des épîtres » - Cicéron (Ier siècle av. J.-C.)4 ' +
         'ou plus nettement chez Quintilien (Ier siècle apr. J.-C.) : ' +
         '« verba in textu jungantur = l\'agencement des mots dans la phrase »5. ',
-      loveits: -1,
+      loveits: 0,
       created_at: new Date()
     },
     {
